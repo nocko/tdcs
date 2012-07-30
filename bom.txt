@@ -1,10 +1,14 @@
-refdes	device	value	footprint	
-D1	LED	20mA	0603	
-R1	RESISTOR	590	0603	
-R2	RESISTOR	33	0603	
-V1	VOLTAGE_SOURCE	DC 12V	PJ-031D	
-U1	LM334Z	unknown	TO92	
-R3	VARIABLE_RESISTOR	100	ct6ep-trimmer	
-Anode	terminal	unknown	Emerson Test Port horizontal	
-Cathode	terminal	unknown	Emerson Test Port horizontal	
-C1	CAPACITOR	470	RCY150P	
+refdes	device			value	footprint	digikey part id	
+
+D1	LED			20mA	0603	
+R1	RESISTOR		590	0603	
+R2	RESISTOR		33	0603	
+V1	VOLTAGE_SOURCE		DC 12V	PJ-031D		PJ-031D
+U1	LM334Z			unknown	TO92		LM334ZNS-ND
+R3	VARIABLE_RESISTOR	100	ct6ep-trimmer	CT6EP101
+Anode	terminal		unknown	Emerson Test... J577-ND	
+Cathode	terminal		unknown	Emerson Test... J576-ND	
+C1	CAPACITOR		470uF	RCY150P		
+
+Other accessories needed: Electrodes, cable, connectors, power supply: 
+  See https://nocko.se/2012/07/30/brain-zapping-is-fun/
