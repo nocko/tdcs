@@ -1,0 +1,10 @@
+refdes	device	value	footprint	
+D1	LED	20mA	0603	
+R1	RESISTOR	590	0603	
+R2	RESISTOR	33	0603	
+V1	VOLTAGE_SOURCE	DC 12V	PJ-031D	
+U1	LM334Z	unknown	TO92	
+R3	VARIABLE_RESISTOR	100	ct6ep-trimmer	
+Anode	terminal	unknown	Emerson Test Port horizontal	
+Cathode	terminal	unknown	Emerson Test Port horizontal	
+C1	CAPACITOR	470	RCY150P	
