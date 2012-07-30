@@ -1,0 +1,3 @@
+schematics tdcs.sch
+pcb-elements ./pcb-elements
+output-name board
