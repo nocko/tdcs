@@ -43,13 +43,13 @@ Interesting Files in the Repo
        Options for gschem. Primarily the location of local schematic
        symbols
 
-gerber/*:
+* gerber/*:
 	
 	Gerber files generated from the *.pcb files. This directory is
 	designed such that the contents can be compressed and sent to
 	[OSH Park](http://oshpark.com/) without modification.
 
-bom.txt:
+* bom.txt:
 
 	Bill of Materials, the components you need to buy to populate
 	the board. Eventually this will auto generate via gnetlist,
