@@ -17,4 +17,4 @@ Notes:
    See https://nocko.se/2012/07/30/brain-zapping-is-fun/
 
 2. Digikey part numbers above are for reference. Other parts with the
-   same specs will work (and might be cheaper)
+   same specs and footprint will work (and might be cheaper)
