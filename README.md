@@ -16,7 +16,7 @@ Relevant files in the repo
 --------------------------
 
 tdcs.sch: 
-        gschem schematic. Edit this file with *gschem* to add or
+:        gschem schematic. Edit this file with *gschem* to add or
 	remove components or change the way the components are
 	connected.
 
