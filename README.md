@@ -64,14 +64,17 @@ starting point elaborated on slightly below:
 
  1. From the CLI:
 
-     cd tdcs #In the repo directory
-     zip tdcs gerber/* #creates tdcs.zip
+     cd tdcs; zip tdcs gerber/* #creates tdcs.zip
 
- 2. In a web browser: Browse to oshpark.com, select "Get Started Now",
-then "Select a file on your computer". Select tdcs.zip created
-above. Fill out the name, contact and billing information.
+ 2. In a web browser: Browse to [oshpark.com](http://oshpark.com),
+select "Get Started Now", then "Select a file on your
+computer". Select tdcs.zip created above. Fill out the name, contact
+and billing information.
 
- 3. Wait for boards to arrive
+ 3. Wait for boards to arrive. While you're waiting you'll want to
+checkout bom.txt for a list of parts to order and this
+[post](https://nocko.se/2012/07/30/brain-zapping-is-fun/) for some
+accessories you'll want.
 
 License
 -------
