@@ -68,7 +68,10 @@ General Workflow
 components.
 
 1. Adjust the pcb layout using *pcb*
- 
+
+1. Export your layout to gerber using File->Export->Gerber in *pcb*
+
+1. Recreate the BoM: ```gnetlist -g bom -o bom.txt tdcs.sch```
 
 Getting the PCB made
 --------------------
