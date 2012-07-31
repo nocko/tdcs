@@ -55,6 +55,21 @@ Interesting Files in the Repo
 	the board. Eventually this will auto generate via gnetlist,
 	but for now the digikey part numbers are added manually.
 
+
+General Workflow
+----------------
+
+1. Add new components or change the circuit diagram in tdcs.sch using
+*gschem*.
+
+1. Run: ```gsch2pcb project```
+
+1. Follow the instructions provided by gsch2pcb to insert the new
+components.
+
+1. Adjust the pcb layout using *pcb*
+ 
+
 Getting the PCB made
 --------------------
 
