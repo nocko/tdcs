@@ -1,14 +1,20 @@
-refdes	device			value	footprint	digikey part id	
+refdes	device			value	 footprint	 digikey part#	
 
-D1	LED			20mA	0603	
-R1	RESISTOR		590	0603	
-R2	RESISTOR		33	0603	
-V1	VOLTAGE_SOURCE		DC 12V	PJ-031D		PJ-031D
-U1	LM334Z			unknown	TO92		LM334ZNS-ND
-R3	VARIABLE_RESISTOR	100	ct6ep-trimmer	CT6EP101
-Anode	terminal		unknown	Emerson Test... J577-ND	
-Cathode	terminal		unknown	Emerson Test... J576-ND	
-C1	CAPACITOR		470uF	RCY150P		
+D1	LED			20mA	 0603		 475-1409-6-ND
+R1	RESISTOR		590@1/4W 0603		 CRCW0603750RFKEAHPCT-ND
+R2	RESISTOR		33	 0603		 RHM33DCT-ND
+V1	VOLTAGE_SOURCE			 PJ-031D	 CP-031D-ND (w/ T984-P7P-ND)
+U1	LM334Z				 TO92		 LM334ZNS-ND
+R3	VARIABLE_RESISTOR	100	 ct6ep-trimmer	 CT6EP101-ND
+Anode	terminal			 Emerson Test... J577-ND	
+Cathode	terminal			 Emerson Test... J576-ND	
+C1	CAPACITOR		470uF	 RCY150P	 493-1043-ND
 
-Other accessories needed: Electrodes, cable, connectors, power supply: 
-  See https://nocko.se/2012/07/30/brain-zapping-is-fun/
+Notes:
+
+1. Supplies listed above populate the board. You may want other
+   accessories: Electrodes, cable, connectors, power supply:
+   See https://nocko.se/2012/07/30/brain-zapping-is-fun/
+
+2. Digikey part numbers above are for reference. Other parts with the
+   same specs will work (and might be cheaper)
