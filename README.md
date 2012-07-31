@@ -15,11 +15,13 @@ or clone the repo using the CLI:
 Relevant files in the repo
 --------------------------
 
-* tdcs.sch: gschem schematic. Edit this file with *gschem* to add or
+* tdcs.sch: 
+	    gschem schematic. Edit this file with *gschem* to add or
 	    remove components or change the way the components are
 	    connected.
 
-* board.pcb: pcb layout. Edit with *pcb* to change the locations of the
+* board.pcb: 
+  	pcb layout. Edit with *pcb* to change the locations of the
 	components on the board or to place new components added in
 	gschem.
 
