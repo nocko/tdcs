@@ -1,10 +1,10 @@
-unnamed_net9	R2-2 R1-2 R1-1 J1-1 
+unnamed_net9	C4-1 R2-2 R1-2 R1-1 J1-1 
 unnamed_net8	C2-1 U2-4 
 unnamed_net7	C2-2 U2-3 
 unnamed_net6	C1-1 U2-2 
 unnamed_net5	C1-2 U2-1 
 unnamed_net4	J2-1 U2-6 
-GND	C3-2 J1-2 J2-5 U2-7 U2-8 
+GND	C4-2 C3-2 J1-2 J2-5 U2-7 U2-8 
 unnamed_net3	C3-1 U2-5 U1-1 
 unnamed_net2	R2-1 U1-2 
 unnamed_net1	R1-3 U1-3 
