@@ -1,14 +1,10 @@
-refdes	device			value	footprint	digikey part id	
-
-D1	LED			20mA	0603	
-R1	RESISTOR		590	0603	
-R2	RESISTOR		33	0603	
-V1	VOLTAGE_SOURCE		DC 12V	PJ-031D		PJ-031D
-U1	LM334Z			unknown	TO92		LM334ZNS-ND
-R3	VARIABLE_RESISTOR	100	ct6ep-trimmer	CT6EP101
-Anode	terminal		unknown	Emerson Test... J577-ND	
-Cathode	terminal		unknown	Emerson Test... J576-ND	
-C1	CAPACITOR		470uF	RCY150P		
-
-Other accessories needed: Electrodes, cable, connectors, power supply: 
-  See https://nocko.se/2012/07/30/brain-zapping-is-fun/
+refdes	device	value	footprint	digikey	price	
+R1	VARIABLE_RESISTOR	100	ct6ep-trimmer	CT6EP101-ND	0.65	
+C3	CAPACITOR	1uF	0603	445-1327-1-ND	0.10	
+R2	RESISTOR	120	0603	RMCF0603FT36K5CT-ND	0.04	
+J1	CONNECTOR_1	unknown	SJ1-352xN	CP1-3523N-ND	0.84	
+C2	CAPACITOR	0.22uF	0603	399-7337-1-ND	0.44	
+C1	CAPACITOR	0.22uF	0603	399-7337-1-ND	0.44	
+J2	usbconn	unknown	mill max mini-usb	ED90341CT-ND	1.56	
+U2	ST662AB	unknown	SO8	497-6541-1-ND	0.96	
+U1	LM334Z	unknown	TO92	LM334ZNS-ND	0.87	
