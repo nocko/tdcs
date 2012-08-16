@@ -1,0 +1,17 @@
+G04 start of page 4 for group 2 idx 2 *
+G04 Title: tDCS Arduino Shield, outline *
+G04 Creator: pcb 1.99z *
+G04 CreationDate: Thu Aug 16 20:41:50 2012 UTC *
+G04 For: nock *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 2700.00 2100.00 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNOUTLINE*%
+%ADD39C,0.0100*%
+G54D39*X0Y210000D02*X270000D01*
+X0Y0D02*X270000D01*
+Y210000D01*
+X0D02*Y0D01*
+M02*
