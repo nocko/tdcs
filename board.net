@@ -2,5 +2,5 @@ unnamed_net6	D1-1 R1-2
 unnamed_net5	R1-1 V1-1 U1-1 
 unnamed_net4	R2-2 U1-2 
 unnamed_net3	R2-1 R3-1 
-unnamed_net2	U1-3 R3-2 Anode-1 C1-1 
-unnamed_net1	V1-2 D1-2 Cathode-1 C1-2 
+unnamed_net2	V1-2 D1-2 Cathode-1 C1-2 
+unnamed_net1	U1-3 R3-2 Anode-1 C1-1 

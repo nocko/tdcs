@@ -5,8 +5,8 @@ ChangePinName(D1, 2, 2)
 ChangePinName(D1, 1, 1)
 
 # Start of element R1
-ChangePinName(R1, 1, 1)
 ChangePinName(R1, 2, 2)
+ChangePinName(R1, 1, 1)
 
 # Start of element R2
 ChangePinName(R2, 1, 1)
@@ -33,5 +33,5 @@ ChangePinName(Anode, 1, terminal)
 ChangePinName(Cathode, 1, terminal)
 
 # Start of element C1
-ChangePinName(C1, 1, 1)
 ChangePinName(C1, 2, 2)
+ChangePinName(C1, 1, 1)
