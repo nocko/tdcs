@@ -165,7 +165,7 @@ refdes=V1
 T 45150 46900 5 10 0 0 270 0 1
 device=VOLTAGE_SOURCE
 T 45350 46900 5 10 0 0 270 0 1
-footprint=PJ-031D
+footprint=PJ-031D-3
 T 44600 46750 5 10 1 1 0 0 1
 value=DC 12V
 }
