@@ -1,4 +1,9 @@
 refdes	device	value	footprint	digikey	price	
+V2	MOV	unknown	ACY300	F2286-ND	0.86	
+V1	MOV	unknown	ACY300	F2286-ND	0.86	
+F1	FUSE	40mA	unknown	283-3083-ND	3.00	
+R4	RESISTOR	800	ACY300	P30BACT-ND	0.09	
+Q1	BS170	unknown	TO92	BS170-ND	0.45	
 S1	DPST	unknown	unknown	unknown	unknown	
 D1	LED	unknown	LED 60	unknown	unknown	
 R3	RESISTOR	1K	ACY300	P30BACT-ND	0.09	
