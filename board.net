@@ -1,14 +1,14 @@
-unnamed_net13	S1-4 R3-1 
-unnamed_net12	D1-1 R3-2 
-unnamed_net11	S1-1 S1-3 B1-1 
-unnamed_net10	C1-2 U2-1 
-unnamed_net9	C3-2 U2-2 
-unnamed_net8	C3-1 U2-3 
-unnamed_net7	C4-2 CONN1-1 U2-4 
-GND	D1-2 B1-2 C4-1 C2-2 U2-5 
-unnamed_net6	S1-2 U2-6 
+unnamed_net12	R4-1 Q1-2 
+unnamed_net11	D1-1 R3-1 
+unnamed_net10	Q1-3 R4-2 V2-1 CONN1-1 
+unnamed_net9	C1-2 U2-1 
+unnamed_net8	C3-2 U2-2 
+unnamed_net7	C3-1 U2-3 
+unnamed_net6	C4-2 Q1-1 U2-4 
+GND	C4-1 V2-2 V1-2 D1-2 B1-2 C2-2 U2-5 
+Vcc	R3-2 B1-1 U2-6 
 unnamed_net5	C1-1 U2-7 
 unnamed_net4	R1-2 R2-2 
 unnamed_net3	C2-1 U2-8 U1-1 
 unnamed_net2	R2-1 U1-2 
-unnamed_net1	CONN1-2 R1-1 U1-3 
+unnamed_net1	V1-1 CONN1-2 R1-1 U1-3 

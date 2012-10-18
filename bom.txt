@@ -1,18 +1,16 @@
 refdes	device	value	footprint	digikey	price	
+C4	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+R4	RESISTOR	470	ACY300	P30BACT-ND	0.09	
+Q1	2N4393	unknown	TO92	unknown	unknown	
 V2	MOV	unknown	ACY300	F2286-ND	0.86	
 V1	MOV	unknown	ACY300	F2286-ND	0.86	
-F1	FUSE	40mA	unknown	283-3083-ND	3.00	
-R4	RESISTOR	800	ACY300	P30BACT-ND	0.09	
-Q1	BS170	unknown	TO92	BS170-ND	0.45	
-S1	DPST	unknown	unknown	unknown	unknown	
 D1	LED	unknown	LED 60	unknown	unknown	
 R3	RESISTOR	1K	ACY300	P30BACT-ND	0.09	
-B1	BATTERY	9V	unknown	unknown	unknown	
-C4	CAPACITOR	10uF	CK06_type_capacitor	445-8569-ND	0.63	
-C3	CAPACITOR	10uF	CK06_type_capacitor	445-8569-ND	0.63	
-C1	CAPACITOR	10uF	CK06_type_capacitor	445-8569-ND	0.63	
-C2	CAPACITOR	10uF	CK06_type_capacitor	445-8569-ND	0.63	
-CONN1	CONNECTOR_2	unknown	unknown	unknown	unknown	
+B1	BATTERY	9V	HEADER2_1	unknown	unknown	
+C3	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+C1	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+C2	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+CONN1	CONNECTOR_2	unknown	HEADER2_1	unknown	unknown	
 U2	LT1026	unknown	DIP8	LT1026CN8#PBF-ND	4.12	
 R1	VARIABLE_RESISTOR	100	ct6ep-2	CT6EP101-ND	0.65	
 R2	RESISTOR	30	ACY300	P30BACT-ND	0.09	
