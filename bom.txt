@@ -1,20 +1,26 @@
-refdes	device			value	 footprint	 digikey part#	
+refdes	device	value	footprint	digikey	price	
+C4	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+R4	RESISTOR	470	ACY300	P30BACT-ND	0.09	
+Q1	2N4393	unknown	TO92	unknown	unknown	
+V2	MOV	unknown	ACY300	F2286-ND	0.86	
+V1	MOV	unknown	ACY300	F2286-ND	0.86	
+D1	LED	unknown	LED 60	unknown	unknown	
+R3	RESISTOR	1K	ACY300	P30BACT-ND	0.09	
+B1	BATTERY	9V	HEADER2_1	unknown	unknown	
+C3	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+C1	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+C2	CAPACITOR	1uF	CK06_type_capacitor	445-8569-ND	0.63	
+CONN1	CONNECTOR_2	unknown	HEADER2_1	unknown	unknown	
+U2	LT1026	unknown	DIP8	LT1026CN8#PBF-ND	4.12	
+R1	VARIABLE_RESISTOR	100	ct6ep-2	CT6EP101-ND	0.65	
+R2	RESISTOR	30	ACY300	P30BACT-ND	0.09	
+U1	LM334Z	unknown	TO92	LM334ZNS-ND	0.87	
 
-D1	LED			20mA	 0603		 475-1409-6-ND
-R1	RESISTOR		590@1/4W 0603		 CRCW0603750RFKEAHPCT-ND
-R2	RESISTOR		33	 0603		 RHM33DCT-ND
-V1	VOLTAGE_SOURCE			 PJ-031D	 CP-031D-ND (w/ T984-P7P-ND)
-U1	LM334Z				 TO92		 LM334ZNS-ND
-R3	VARIABLE_RESISTOR	100	 ct6ep-trimmer	 CT6EP101-ND
-Anode	terminal			 Emerson Test... J577-ND	
-Cathode	terminal			 Emerson Test... J576-ND	
-C1	CAPACITOR		470uF	 RCY150P	 493-1043-ND
-
-Notes:
-
+Notes:                                                                                                                       
+                                                                                                                             
 1. Supplies listed above populate the board. You may want other
-   accessories: Electrodes, cable, connectors, power supply:
-   See https://nocko.se/2012/07/30/brain-zapping-is-fun/
+   accessories: Electrodes, cable, connectors, power supply: See
+   https://nocko.se/2012/07/30/brain-zapping-is-fun/
 
 2. Digikey part numbers above are for reference. Other parts with the
    same specs and footprint will work (and might be cheaper)

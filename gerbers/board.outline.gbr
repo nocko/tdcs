@@ -1,0 +1,17 @@
+G04 start of page 4 for group 2 idx 2 *
+G04 Title: OpenTDCS, v4, outline *
+G04 Creator: pcb 1.99z *
+G04 CreationDate: Thu 18 Oct 2012 01:14:54 AM GMT UTC *
+G04 For: nock *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 2250.00 850.00 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNOUTLINE*%
+%ADD169C,0.0080*%
+G54D169*X0Y85000D02*Y0D01*
+Y85000D02*X225000D01*
+X0Y0D02*X225000D01*
+Y85000D02*Y0D01*
+M02*

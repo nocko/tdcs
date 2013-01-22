@@ -1,0 +1,94 @@
+v 20110115 2
+B 200 0 1100 1000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 200 1000 8 10 1 1 0 0 1
+device=LT1026
+T 1000 1000 8 10 1 1 0 0 1
+refdes=U?
+P 1500 700 1300 700 1 0 0
+{
+T 1600 700 5 10 0 0 0 0 1
+pintype=unknown
+T 1245 695 5 10 1 1 0 6 1
+pinlabel=+Vout
+T 1395 745 5 10 1 1 0 0 1
+pinnumber=8
+T 1600 700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1500 500 1300 500 1 0 0
+{
+T 1600 500 5 10 0 0 0 0 1
+pintype=unknown
+T 1245 495 5 10 1 1 0 6 1
+pinlabel=C1+
+T 1395 545 5 10 1 1 0 0 1
+pinnumber=7
+T 1600 500 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1500 300 1300 300 1 0 0
+{
+T 1500 300 5 10 0 0 0 0 1
+pintype=unknown
+T 1245 295 5 10 1 1 0 6 1
+pinlabel=Vin
+T 1395 345 5 10 1 1 0 0 1
+pinnumber=6
+T 1500 300 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1500 100 1300 100 1 0 0
+{
+T 1500 100 5 10 0 0 0 0 1
+pintype=unknown
+T 1245 95 5 10 1 1 0 6 1
+pinlabel=GND
+T 1395 145 5 10 1 1 0 0 1
+pinnumber=5
+T 1500 100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 100 200 100 1 0 0
+{
+T -100 100 5 10 0 0 180 0 1
+pintype=unknown
+T 255 95 5 10 1 1 0 0 1
+pinlabel=-Vout
+T 105 145 5 10 1 1 0 6 1
+pinnumber=4
+T -100 100 5 10 0 0 180 0 1
+pinseq=0
+}
+P 0 300 200 300 1 0 0
+{
+T -100 300 5 10 0 0 180 0 1
+pintype=unknown
+T 255 295 5 10 1 1 0 0 1
+pinlabel=C2-
+T 105 345 5 10 1 1 0 6 1
+pinnumber=3
+T -100 300 5 10 0 0 180 0 1
+pinseq=0
+}
+P 0 500 200 500 1 0 0
+{
+T 0 500 5 10 0 0 180 0 1
+pintype=unknown
+T 255 495 5 10 1 1 0 0 1
+pinlabel=C2+
+T 105 545 5 10 1 1 0 6 1
+pinnumber=2
+T 0 500 5 10 0 0 180 0 1
+pinseq=0
+}
+P 0 700 200 700 1 0 0
+{
+T 0 700 5 10 0 0 180 0 1
+pintype=unknown
+T 255 695 5 10 1 1 0 0 1
+pinlabel=C1-
+T 105 745 5 10 1 1 0 6 1
+pinnumber=1
+T 0 700 5 10 0 0 180 0 1
+pinseq=0
+}
