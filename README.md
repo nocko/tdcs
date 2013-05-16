@@ -21,7 +21,7 @@ Interesting Files in the Repo
 	remove components or change the way the components are
 	connected.
 
-* board.pcb:
+* tdcs.pcb:
  
   	pcb layout. Edit with *pcb* to change the locations of the
 	components on the board or to place new components added in
@@ -43,17 +43,20 @@ Interesting Files in the Repo
        Options for gschem. Primarily the location of local schematic
        symbols
 
-* gerber/*:
+* gerber/tdcs/*:
 	
 	Gerber files generated from the *.pcb files. This directory is
 	designed such that the contents can be compressed and sent to
 	[OSH Park](http://oshpark.com/) without modification.
 
+* gerber/tdcs.zip:
+
+	Zipfile ready for upload to [OSHPark](http://oshpark.com/) .
+
 * bom.txt:
 
 	Bill of Materials, the components you need to buy to populate
-	the board. Eventually this will auto generate via gnetlist,
-	but for now the digikey part numbers are added manually.
+	the board. Auto generated via gnetlist from the schematic.
 
 
 General Workflow
@@ -69,7 +72,7 @@ components.
 
 1. Adjust the pcb layout using *pcb*
 
-1. Export your layout to gerber using File->Export->Gerber in *pcb*
+1. Export your layout to gerber: ``cd gerbers && ./generate-gerbers.sh``
 
 1. Recreate the BoM: ```gnetlist -g bom -o bom.txt tdcs.sch```
 
@@ -80,16 +83,12 @@ I plan to add this to the wiki, but for now this
 [post](https://nocko.se/2012/07/30/brain-zapping-is-fun/) is a good
 starting point elaborated on slightly below:
 
- 1. From the CLI:
-
-     cd tdcs; zip tdcs gerber/* #creates tdcs.zip
-
- 2. In a web browser: Browse to [oshpark.com](http://oshpark.com),
+ 1. In a web browser: Browse to [oshpark.com](http://oshpark.com),
 select "Get Started Now", then "Select a file on your
-computer". Select tdcs.zip created above. Fill out the name, contact
-and billing information.
+computer". Select tdcs.zip in the ``gerbers/`` directory. Fill out the
+name, contact and billing information.
 
- 3. Wait for boards to arrive. While you're waiting you'll want to
+ 2. Wait for boards to arrive. While you're waiting you'll want to
 checkout bom.txt for a list of parts to order and this
 [post](https://nocko.se/2012/07/30/brain-zapping-is-fun/) for some
 accessories you'll want.
