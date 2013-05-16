@@ -104,7 +104,7 @@ digikey=445-8569-ND
 T 45200 51600 5 10 0 0 90 0 1
 price=0.63
 T 45100 51800 5 10 1 1 0 0 1
-value=1uF
+value=10uF
 }
 C 44100 52600 1 180 0 capacitor-1.sym
 {
@@ -121,7 +121,7 @@ digikey=445-8569-ND
 T 44100 52600 5 10 0 0 180 0 1
 price=0.63
 T 44200 52600 5 10 1 1 180 0 1
-value=1uF
+value=10uF
 }
 C 42500 50900 1 90 0 capacitor-1.sym
 {
@@ -138,7 +138,7 @@ digikey=445-8569-ND
 T 42500 50900 5 10 0 0 90 0 1
 price=0.63
 T 41800 51100 5 10 1 1 0 0 1
-value=1uF
+value=10uF
 }
 C 45000 48500 1 180 0 battery-1.sym
 {
@@ -165,9 +165,9 @@ device=RESISTOR
 T 45800 48100 5 10 1 1 270 0 1
 refdes=R3
 T 46000 48100 5 10 1 1 270 0 1
-value=1K
+value=800
 T 46500 48400 5 10 0 0 180 0 1
-digikey=P30BACT-ND
+digikey=806XBK-ND
 T 46500 48400 5 10 0 0 180 0 1
 price=0.09
 T 46500 48400 5 10 0 0 180 0 1
@@ -247,7 +247,7 @@ digikey=445-8569-ND
 T 42000 50200 5 10 0 0 0 0 1
 price=0.63
 T 42500 50400 5 10 1 1 0 0 1
-value=1uF
+value=10uF
 }
 N 41800 50400 42000 50400 4
 C 47100 50000 1 270 0 n-jfet.sym
