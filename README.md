@@ -1,3 +1,5 @@
+# TCDS may be dangerous; use of these designs is not recommended. These designs are old and no further development is planned.
+
 Open Source Hardware TDCS
 =========================
 
